@@ -1,0 +1,3 @@
+django-admin startproject task_manager
+cd task_manager
+python manage.py startapp tasks
