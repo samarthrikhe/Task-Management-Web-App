@@ -1,2 +1,2 @@
 # Task-Management-Web-App
-Create a basic web app using Django where users can manage personal tasks after logging in with their Google account.Users should be able to create, view, edit, and delete tasks. Each task should have a title and a description.
+In this project, we will develop a basic web application using Django that allows users to manage personal tasks after logging in with their Google accounts. The application will include features such as Google authentication, task management (create, view, edit, delete tasks), and an admin panel for managing Google OAuth keys and inviting new users.
