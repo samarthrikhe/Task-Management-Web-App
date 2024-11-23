@@ -1,0 +1,17 @@
+Project Setup: We start by creating a new Django project and an app called tasks. This app will handle all task-related functionalities.
+
+Package Installation: We install django-allauth for handling Google authentication and django-environ for managing environment variables securely.
+
+Settings Configuration: In settings.py, we configure the installed apps, authentication backends, and Google OAuth2 keys. The SOCIALACCOUNT_PROVIDERS section is crucial for integrating Google login.
+
+Task Model: The Task model is defined to store user tasks, including fields for the title, description, and a foreign key linking to the user.
+
+Views: We create views for listing, creating, editing, and deleting tasks. The @login_required decorator ensures that only authenticated users can access these views.
+
+URLs: We define URL patterns for the task management views, allowing users to navigate through the application.
+
+Admin Panel: The admin.py file registers the Task model with the Django admin site, enabling admin users to manage tasks easily.
+
+Running the Application: Finally, we run migrations to set up the database and start the server to test the application.
+
+This code provides a foundational structure for a task management web app with Google authentication. You can further enhance it by adding features such as user invitations and email notifications.
