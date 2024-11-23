@@ -1,0 +1,12 @@
+Create a Google Cloud Project:
+
+Go to the Google Cloud Console.
+Create a new project and enable the "Google+ API" and "OAuth 2.0".
+Set Up OAuth Consent Screen:
+
+Fill in the required fields and save.
+Create OAuth Credentials:
+
+Go to "Credentials" and create a new OAuth 2.0 Client ID.
+Set the application type to "Web application".
+Add your redirect URI (e.g., http://localhost:8000/accounts/google/login/callback/).
